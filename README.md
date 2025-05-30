@@ -1,7 +1,7 @@
 # payments_system
 
 Сервис для приема вебхуков от банка
-Работает на Django, DRF, MySQL
+### Работает на Django, DRF, MySQL
 
 1. Установить зависимости из requirements.txt
 2. Файл для паролей / ключей .env разместить в корне рядом с manage.py:
