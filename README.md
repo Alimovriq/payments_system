@@ -14,10 +14,11 @@
 - DB_PORT=3306
 3. В папке с manage.py
 
-python manage.py makemigrations
-python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
 
-Запуск: python manage.py runserver
+Запуск: 
+- python manage.py runserver
 
 Тестить:
 1. POST http://127.0.0.1:8000/api/webhook/bank/ 
