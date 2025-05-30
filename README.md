@@ -4,14 +4,14 @@
 Работает на Django, DRF, MySQL
 
 1. Установить зависимости из requirements.txt
-2. .env в корне рядом с manage.py:
-DEBUG=True
-SECRET_KEY=some_key
-DB_NAME=my_db
-DB_USER=my_user
-DB_PASSWORD=my_pass
-DB_HOST=localhost
-DB_PORT=3306
+2. Файл для паролей / ключей .env разместить в корне рядом с manage.py:
+- DEBUG=True
+- SECRET_KEY=some_key
+- DB_NAME=my_db
+- DB_USER=my_user
+- DB_PASSWORD=my_pass
+- DB_HOST=localhost
+- DB_PORT=3306
 3. В папке с manage.py
 
 python manage.py makemigrations
